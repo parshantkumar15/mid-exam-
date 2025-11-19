@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+display:flex ;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 250px;
+background-color: blue;
+box-shadow: 40px 20px 30px -5px;
+}
+
+.profile-card{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    background-color: rgb(55, 188, 255);
+    border-radius: 100px;
+    
+}
+
+
+.name{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social-icons{
+justify-content: baseline;
+align-items: center;
+
+}
+
+
+.list-item{
+justify-content: center;
+align-items: center;
+color: rgb(255, 132, 0);
+
+}
+
+
+.profile-image{
+
+    width: 250px;
+    height: 250;
+    background-color: beige;
+    border-radius: 50px;
+    border-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxzM_e4qVtnPZttfPhbjcPssC78WndotRPg&s) ;
+    position: right;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
